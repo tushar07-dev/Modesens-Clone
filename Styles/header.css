@@ -1,0 +1,95 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}       
+                                        /* Header - Navbar */
+#navBar
+
+{
+   height:70px;
+   width: 100%;
+   display: flex;
+   margin: -9px auto;
+   /* position: fixed; */
+   background-color:#F8F7F6;
+}
+.title0 > .logo{
+   margin-left: 120px;
+}
+.title0{
+   width: 10%;
+   /* background-color: #1C1C1C; */
+}
+.title1{
+   /* background-color: #967a7a; */
+   width: 5%;
+}
+.title2{
+   /* background-color: #e9d9d9; */
+   width: 55%;
+}
+.title3{
+   /* background-color: #967a7a; */
+   width: 20%;
+}
+.title1 :hover ,.title2 :hover {
+   border-bottom: 2px solid wheat;
+}
+.title1 > .womens
+{  display: none;
+   position: absolute;
+   padding: 20px;
+}
+.title1:hover .womens{
+   text-decoration: underline;
+   display: flex;
+   background-color:aliceblue;
+   z-index: 1;
+   width: 700px;
+   height: 10px;
+   margin: auto;
+}
+.title1> .womens > p{
+   margin-top: -7px;
+}
+
+.title1 >  p , .title2> p ,  .title3> p {
+  margin-left: 17px;
+  margin-top: 25px;
+}
+
+ .title1>  p>a ,  .title2>  p>a ,  .title3>  p>a {
+   color: black;
+   text-decoration: none;
+   font-size: 14px;
+}
+.womens >  p >a {
+   color: black;
+   text-decoration: none;
+   font-size: 15px;
+   margin-left: 12px;
+}
+#navbar >a>img{
+   margin-right: 40px;
+   margin-left: 20px;
+}
+.title3 > input{
+   width: 200px;
+   height: 25px;
+   margin-top: 20px;
+   border-radius: 7px;
+   border: none;
+}
+.title3 > .user{
+   margin: 23px 15px 0px 15px;
+}
+.title3 > .searchIcon{
+    margin: 25px 15px 0px -20px;
+}
+
+.title2 {
+   display: flex;
+}
+.title3 {
+   display: flex;
+}
+
