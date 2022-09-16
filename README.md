@@ -1,10 +1,10 @@
 ## Modesens-Clone
 
 This is an actual Clothing web-application which sales Cloths Online.
-I took inpiration from  https://modesens.com/
 
 ## We have deployed the website on Netlify.
 Live Link : https://graceful-starlight-17a7a2.netlify.app
+
 Modesens Website : https://modesens.com/
 
 ![Logo](https://cdn.modesens.com/static/img/20190228newlogo-black.svg)
