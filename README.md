@@ -1,33 +1,24 @@
-
-# Modesens-Clone
+## Modesens-Clone
 
 This is an actual Clothing web-application which sales Cloths Online.
 I took inpiration from  https://modesens.com/
 
+## We have deployed the website on Netlify.
 Live Link : https://graceful-starlight-17a7a2.netlify.app
-
+Modesens Website : https://modesens.com/
 
 ![Logo](https://cdn.modesens.com/static/img/20190228newlogo-black.svg)
 
-
-
-
-
-## Screenshots
+## This is an image
 
 ![App Screenshot](https://imgs.search.brave.com/BNR-1PAXMw4bgr8G66hKBvN5IvvVnOjhzrP4slI3Jhg/rs:fit:768:480:1/g:ce/aHR0cHM6Ly9jZG4y/LmJvdXRpcXVlLmh1/bWJsZWFuZHJpY2gu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA0L01vZGVz/ZW5zLTEtNzY4eDQ4/MC5qcGc)
 
 This is a clone of an ecommerce website which is a project we got in our construct week of second unit in Masai school.
 
-Live Demo : https://fitmeals-project.netlify.app/
-Modesens Website : https://modesens.com/
-This is an image
-
-Tech stack used :
+## Tech stack used :
 HTML
 CSS
 JavaScript.
-We have deployed the website on Netlify.
 
 We have added advanced css animations on the homepage to make the UI more attractive.
 
