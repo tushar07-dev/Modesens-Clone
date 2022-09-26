@@ -3,7 +3,7 @@
 This is an actual Clothing web-application which sales Cloths Online.
 
 ## We have deployed the website on Netlify.
-Live Link : https://graceful-starlight-17a7a2.netlify.app
+Netlify Link : https://graceful-starlight-17a7a2.netlify.app
 
 Modesens Website : https://modesens.com/
 
