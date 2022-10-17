@@ -195,8 +195,8 @@ const Navbar = () => {
                 </div>
                 <div id="login" >
                     <img className="loginimage"
-                        src={currentUser?"https://ca.slack-edge.com/T02QFJUB5DF-U02RBFN2N1Y-dcb969d1b8b8-48":"https://cdn.modesens.com/static/img/20200612account_b2.svg"}
-                        alt=""
+                        src={currentUser?"https://avatars.githubusercontent.com/u/97495058?v=4":"https://imgs.search.brave.com/N9dELgrUc3mbRpZzn1VJKRjve5-EuMwRdWZBqIizt7M/rs:fit:474:474:1/g:ce/aHR0cHM6Ly93d3cu/bG9nb2x5bnguY29t/L2ltYWdlcy9sb2dv/bHlueC85MC85MGFl/NjViMmQ2M2RjYzU3/NzZlNGI4ZGE5NzZj/YzYwNC5qcGVn"}
+                        alt="loUserImage"
                     />
                 </div>
                 <div id="loginhide">
