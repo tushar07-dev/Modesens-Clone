@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width:90%;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}

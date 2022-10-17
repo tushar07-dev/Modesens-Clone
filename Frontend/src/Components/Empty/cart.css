@@ -1,0 +1,62 @@
+.cart-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "SuisseIntl";
+    font-size: 14px;
+    color: #1c1c1c;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* border: 1px solid black; */
+}
+.cart-heading{
+    font-family: "SuisseIntl";
+    font-size: 1.71rem;
+    margin: 0px 0px 7px;
+    color: #1c1c1c;
+    font-weight: 700!important;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
+}
+.cart-titleMode{
+    margin-bottom: 1.5rem!important;
+    text-align: center!important;
+    font-family: "SuisseIntl";
+    font-size: 16px;
+    color: #1c1c1c;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.cart-bagIsEmpty{
+    margin-top: 7rem;
+    line-height: 25px;
+    font-size: 1.14rem;
+    text-align: center!important;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+.cart-hankerImage{
+    vertical-align: middle;
+    border-style: none;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+.cart-buttonForShop button{
+    background-color: #1c1c1c;
+    color: white;
+    cursor: pointer;
+    border-radius: 0;
+    border-color: #1c1c1c;
+    display: inline-block;
+    padding: 13px 15px 10px ;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-right:20px ;
+}

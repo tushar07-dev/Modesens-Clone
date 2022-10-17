@@ -1,0 +1,11 @@
+.navbarCouponBtn{
+    /* border: 5px solid red; */
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    color: white;
+    left: 96%;
+    bottom: 99.3%;
+    right: 0;
+    font-size: 12px;
+}

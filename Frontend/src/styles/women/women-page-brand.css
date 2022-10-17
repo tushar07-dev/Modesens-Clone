@@ -1,0 +1,52 @@
+/* .container {
+    margin: 20% 30%;
+}
+
+.container > button > img{
+    height: 300px;
+    width:100%
+} */
+
+/* /// */
+
+.paru div{
+    
+    border:1px solid black;
+    border-radius: 0.625em;
+    height:280px;
+    width:25%;
+    border-radius: 10px;
+    margin-right: 5px;
+    transition: transform .2s;
+}
+
+.paru div:hover,.lang div:hover{
+    cursor: pointer;
+}
+.lang div{
+    height: 187px;
+    width: 187px;
+}
+    
+.paru div:hover{
+    transform: scaleY(1.5);
+   
+}
+.paru div img{
+    height: 100%;
+    width: 100%;
+}
+.img_card>h3{
+    
+    font-family: SFProText-Semibold !important;
+    position: relative;
+    
+    margin-bottom: 0.9375em !important;
+    
+    color: #fff !important;
+    margin-left: 60px;
+}
+.img_card{
+    margin-bottom: 20px;
+}
+

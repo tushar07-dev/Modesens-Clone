@@ -1,0 +1,149 @@
+
+.swiper {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+width: 50%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* my css */
+.container {
+  height: 400px;
+  width:85%;
+  margin:  auto;
+}
+.col{
+  height: 100%;
+  width: 90%;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+/* .col-1 {
+  background-image: url("https://modesens.com/banner/11724/getimg/?img=%2Fbanner%2F20220504-modesens-Oluxury-1140x400.jpg");
+  color: white;
+} */
+a{
+ 
+ color: white;
+}
+.text{
+  float: left;
+  margin-left: 70px;
+  margin-top:250px;
+}
+
+.col-2{
+  background-image: url("https://modesens.com/banner/11682/getimg/?img=%2Fbanner%2F20220427LengJing-modesens1140x400.jpg")
+}
+.text-1{
+  margin-top: 200px;
+  color: white;
+}
+.col-3{
+  background-image: url("https://modesens.com/banner/11726/getimg/?img=%2Fbanner%2F20220502-modesens-Mothersday-1140x400.jpg")
+}
+.text-2{
+  float: left;
+  margin-left: 70px;
+  color: white;
+  margin-top: 180px;
+  
+}
+.text-2 > h1{
+  font-size: 45px;
+}
+.col-4{
+  background-image:url("https://modesens.com/banner/11648/getimg/?img=%2Fbanner%2F20220426-modesens-StatementSandal-1140x400-F.jpg")
+}
+.col-5{
+  background-image:url("https://modesens.com/banner/11585/getimg/?img=%2Fbanner%2F20220419-modesens-cutout-1140x400-F.jpg")
+}
+.col-6{
+  background-image:url("https://modesens.com/banner/11754/getimg/?img=%2Fbanner%2F20220506-modesens-Harrods-1140x400-F.jpg")
+}
+
+/*brand*/
+.bptext{
+  
+  background-color: white;
+margin: 0;
+}
+.bp{
+  font-size:22px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: normal;
+}
+.bptext > h1{
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing:.7px;
+  margin-bottom: 0;
+}
+.bptext > p{
+  color: #6C757D;
+}
+.brand-col{
+  width: 87%;
+  margin: 40px 0;
+}
+.brand-col > img{
+  width: 100%;
+}
+
+.slideDiv h5{
+  font-weight: bolder;
+
+}
+.textDiv{
+
+  height: 140px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+.textDiv div{
+  position: absolute;
+  top: 80;
+  bottom: 8%;
+  left: 0;
+  right: 0;
+  padding: 4px 10px;
+}

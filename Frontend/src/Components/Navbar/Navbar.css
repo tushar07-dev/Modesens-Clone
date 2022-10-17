@@ -1,0 +1,272 @@
+#Navbar {
+  display: flex;
+  color: #1c1c1c;
+  padding: 20px;
+  justify-content: space-around;
+  /* margin: auto; */
+}
+#logo {
+  width: 147px;
+  height: 80px;
+  height: 21px;
+}
+.categories {
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  /* border: solid; */
+}
+.womenhide,
+.clothinghide,
+.beautyhide,
+.kidshide,
+#loginhide,
+.communityhide,
+.offershide,
+.homehide,
+.menhide {
+  background-color: white;
+}
+.right_side {
+  display: flex;
+  gap: 20px;
+  margin-left: 230px;
+}
+
+#search {
+  width: 50%;
+  border: 1px solid red;
+  border: none;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+.womenhide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+  /* border-top:  0.5px solid grey; */
+}
+.womenhide:hover {
+  display: flex;
+}
+.women:hover ~ .womenhide {
+  display: flex;
+}
+.women:hover {
+  border-bottom: solid;
+}
+.clothinghide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+.clothinghide:hover {
+  display: flex;
+}
+.clothing:hover ~ .clothinghide {
+  display: flex;
+}
+.menhide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+.menhide:hover {
+  display: flex;
+}
+.men:hover ~ .menhide {
+  display: flex;
+}
+
+.beautyhide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+.beautyhide:hover {
+  display: flex;
+}
+.beauty:hover ~ .beautyhide {
+  display: flex;
+}
+
+.kidshide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+.kidshide:hover {
+  display: flex;
+}
+
+.kids:hover ~ .kidshide {
+  display: flex;
+}
+
+.homehide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -50px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  width: 1200px;
+}
+.homehide:hover {
+  display: flex;
+  margin-left: -120px;
+}
+.flex div:nth-child(1) {
+  width: 200px;
+  line-height: 30px;
+}
+.homehide div:nth-child(2) {
+  margin-left: 350px;
+  line-height: 30px;
+}
+.homehide div:nth-child(3) {
+  margin-left: 350px;
+  line-height: 30px;
+}
+.home:hover ~ .homehide {
+  display: flex;
+  margin-left: -120px;
+}
+
+.offershide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -50px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+
+.offers:hover ~ .offershide {
+  display: flex;
+}
+.offershide:hover {
+  display: flex;
+}
+.communityhide {
+  display: none;
+  margin-top: 20px;
+  z-index: 2;
+  position: absolute;
+  gap: 30px;
+  margin-left: -50px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+
+.community:hover ~ .communityhide {
+  display: flex;
+}
+.communityhide:hover {
+  display: flex;
+}
+
+#loginhide {
+  display: none;
+  margin-top: 15px;
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  margin-left: -220px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#login:hover ~ #loginhide {
+  display: block;
+}
+#loginhide:hover {
+  display: block;
+}
+.loginimage{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.inbtn {
+  color: blueviolet;
+  font-weight: bold;
+}
+.inbtn:hover{
+  color: rgb(64, 230, 64);
+}

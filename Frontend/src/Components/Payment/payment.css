@@ -1,0 +1,215 @@
+.checkout-container{
+    font-family: plain,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 11px;
+    line-height: 15px;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    transition: .35s ease transform;
+    padding: 0 55px;
+    margin: 20px auto 0;
+    max-width: 1440px;
+}
+.checkout-form{
+    margin-bottom: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.checkout-row{
+    margin-bottom: 0px;
+    display: flex;
+    width: 100%;
+}
+.checkout-columns{
+    width: calc(100%);
+    height: 100%;
+}
+.checkout-wrapper{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: "Favorit SSENSE Inter";
+    font-weight: 400;
+    color: #000;
+    font-size: 11px;
+    line-height: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    /* border: 1px solid black; */
+}
+.checkout-left-margin{
+    width: calc(160%);
+    margin-right: 5px;
+    flex: 0;
+    height: 100%;
+}
+.checkout-right-margin{
+    width: calc(100%);
+    margin-right: 5px;
+    flex: 1;
+    height: 100%;
+   
+}
+.checkout-form-detail{
+    flex: 6;     
+}
+.checkout-title{
+    margin-bottom: 20px;
+    font-family: "Favorit SSENSE Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.36;
+    letter-spacing: .09px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.shippingAddress{
+    position: relative;
+}
+.shippingAddressHeader{
+    padding: 0 0 7px;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.row-fluid {
+    position: relative;
+    margin-left: -12px;
+}
+.shipping-address-title{
+    text-align: left;
+    width: 85%;
+    display: block;
+    float: left;
+    min-height: 1px;
+    /* padding-left: 12px; */
+    text-transform: uppercase;
+    font-weight: 800;
+    padding:10px;
+    font-size: 16px;
+    border-bottom: 1px solid #b6b6b6;
+}
+.address-form-wrapper{
+    margin-bottom: 10px;
+}
+.address-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.address-form-row{
+    display: flex;
+    flex-direction: row;
+}
+.address-form-column{
+    display: flex;
+    flex: 50%;
+}
+.address-form-input-md:first-child{
+    margin-right: 20px;
+}
+.address-form-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.address-form-label{
+    text-transform: capitalize;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    cursor: default;
+    margin-bottom: 5px;
+    font-size: 8px;
+    line-height: 15px;
+    margin-top:20px
+}
+.address-form-input{
+    width:300px;
+    border: 1px solid #b6b6b6;
+    height: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    overflow: visible;
+    font-size: 16px;
+    line-height: 1.15;
+    margin: 0;
+    outline: 0;
+    min-height: 20px;
+    padding: 0 6px;
+    background: transparent;
+    vertical-align: top;
+    box-shadow: none;
+    -webkit-appearance: none;
+    text-transform: capitalize;
+}
+.checkout-order-summary-container{
+    flex: 3;
+    width:100%;
+    position: sticky;
+    margin-top: 35px;
+    align-self: flex-start;
+}
+.order-summary-heading{
+    border-bottom: 1px solid #b6b6b6;
+    padding-bottom: 7px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+.order-summary-total-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    width:100%
+}
+.spacerOrder{
+    flex-direction: column
+}
+.order-summary-total{
+    display: flex;
+    flex-direction: column;
+}
+.order-summary-subtotal{
+    display: flex;
+    gap:200px;
+    flex-direction: row;
+    border-bottom: 1px solid #b6b6b6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top:10px
+}
+.order-summary-overallTotal{
+    display: flex;
+    gap:200px;
+    flex-direction: row;
+    /* border-bottom: 1px solid #b6b6b6; */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top:10px
+}
+.order-summary-subtotal-left,.order-summary-overallTotal-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.order-summary-subtotal-right,.order-summary-overallTotal-right{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.order-place-order-button{
+    width:100%;
+    color:#fff
+}

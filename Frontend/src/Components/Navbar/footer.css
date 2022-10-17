@@ -1,0 +1,114 @@
+.mainbox {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  padding: 0 10px;
+}
+
+.mainbox h3 {
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  margin-bottom: 5px;
+}
+.mainbox a {
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.lowerborder {
+  margin-top: 2%;
+  border: 1px solid red;
+  background-color: black;
+  height: -5px;
+}
+.upperborder {
+  margin-top: 2%;
+  border: 1px solid red;
+  background-color: black;
+  height: 0px;
+}
+.leftside {
+  width: 2.5%;
+  height: 2.5%;
+}
+.contacticons {
+  /* height: 2%; */
+  height: 50px;
+}
+.adjust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.rightside {
+  margin-left: 73%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-top: -50px;
+  height: 100%;
+}
+
+.instagram {
+  /* margin-top:-2%; */
+}
+.instagram > a > img {
+  height: 55px;
+}
+.facebook {
+  /* margin-top:-2%; */
+}
+.facebook > a > img {
+  height: 55px;
+}
+
+.wb {
+  /* margin-top: -2% ; */
+}
+.wb > a > img {
+  height: 55px;
+}
+.chat {
+  /* margin-top: -2%; */
+}
+.chat > a > img {
+  height: 55px;
+}
+.twitter > a > img {
+  height: 35px;
+}
+.adjust1 > a > img {
+  height: 35px;
+}
+.News {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.News form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email {
+  border: 1px solid black;
+  margin: auto;
+  margin: 10px 0;
+}
+.email:focus {
+  outline: none;
+}
+.inputSubmit {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px 80px;
+  margin-top: 10px;
+}
+.hrTag {
+  margin-bottom: 20px;
+}

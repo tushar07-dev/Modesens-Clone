@@ -1,0 +1,58 @@
+.box{
+    width: 65%;
+    margin: auto;
+    padding-right: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.create-sign{
+    /* margin-top: -20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+    /* border: solid red; */
+    
+}
+.text-text{
+    font-size: 30px;
+}
+.text-text1{
+    font-size: 18px;
+}
+.logos{
+    width: 70%
+}
+.height{
+    height: 35px;
+    border: 1px solid black;
+    width: 68%;
+    margin: auto;
+}
+.pointer{
+    cursor: pointer;
+}
+.button{
+    width: 68%;
+    margin: auto;
+}
+.img{
+    margin-left: 15%;
+    height: 620px;
+    width: 150%;
+}
+/* .details{
+    padding-top: 8%;
+} */
+.logindiv{
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+   background-color: rgba(234, 230, 230, 0.537);
+    /* top: 150px;
+    margin: auto;
+    left: 400px; */
+}
+.logdiv{
+    background-color: white;
+}

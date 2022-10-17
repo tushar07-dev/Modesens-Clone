@@ -1,0 +1,78 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: auto;
+    height:86%;
+    background-color:#fff;
+}
+.wrapper{
+width:100%;
+height: 790px;
+display: flex;
+align-items: center;
+background-color: #f8f7f6;
+}
+.left{
+    flex: 1;
+    padding:30px;
+    height: 100%;
+    text-align: center;
+}
+.left h1{
+    font-size:24px;
+    font-weight: bold;
+    width: 55%;
+    margin: auto;
+    padding:15px;
+}
+.left button{
+
+    background-color:black;
+    color:white;
+    padding:6px 16px;
+}
+.right{
+    flex: 1;
+    padding:30px;
+    height: 100%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-weight: 600;
+}
+.right h1{
+    font-size:24px;
+    font-weight: bold;
+    width: 70%;
+    margin:0 auto;
+    padding:15px;
+    
+}
+.right button{
+
+    background-color:black;
+    color:white;
+    padding:6px 16px;
+}
+.ImgDiv1{
+    height: 65%;
+    width: 50%;
+    margin: auto;
+}
+.ImgDiv1 img{
+    height: 100%;
+    margin: auto;
+}
+.ImgDiv2{
+    height: 55%;
+    width: 90%;
+    margin: auto;
+}
+.ImgDiv2 img{
+    height: 100%;
+    margin: auto;
+    width: 100%;
+}
